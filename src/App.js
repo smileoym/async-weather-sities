@@ -1,13 +1,13 @@
 import Info from "./components/Info";
-import Weather from "./components/Weather.js";
+// import Weather from "./components/Weather.js";
 import GetApi from "./components/GetApi";
 import "./App.css";
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <Info />
-      <Weather />
+      {/* <Weather /> */}
       <GetApi />
     </div>
   );
